@@ -26,8 +26,7 @@
     "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-config-google": "^0.14.0",
-    "postcss-selector-parser": "^6.0.0"
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
