@@ -36,5 +36,12 @@ module.exports = function() {
         return `${darkSelector} .${e(`dark-focus-within${separator}${className}`)}:focus-within`;
       });
     });
+    
+
+    addVariant('dark-placeholder', ({modifySelectors, separator}) => {
+      modifySelectors(({className}) => {
+        return `${darkSelector} .${e(`dark-placeholder${separator}${className}`)}:placeholder`;
+      });
+    });
   };
 };
